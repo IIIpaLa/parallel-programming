@@ -1,0 +1,7 @@
+cd src
+
+D:\jdk8\bin\javac -cp ".;..\lib\mappedbus-0.5.1.jar" io\mappedbus\sample\object\PriceUpdate.java io\mappedbus\sample\object\ObjectReader.java io\mappedbus\sample\object\ObjectWriter.java
+
+D:\jdk8\bin\java -cp ".;..\lib\mappedbus-0.5.1.jar" io.mappedbus.sample.object.ObjectWriter 1
+
+D:\jdk8\bin\java -cp ".;..\lib\mappedbus-0.5.1.jar" io.mappedbus.sample.object.ObjectReader
